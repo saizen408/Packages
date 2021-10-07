@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>qt5-default</id>
+    <id>qt5-msvc2019_64</id>
     <version>5.15.2</version>
-    <packageSourceUrl>https://github.com/lebarsfa/Packages/tree/main/choco/qt5-default</packageSourceUrl>
-    <owners>lebarsfa</owners>
+    <packageSourceUrl>https://github.com/saizen408/Packages.git</packageSourceUrl>
+    <owners>saizen408</owners>
     <title>Qt 5 SDK</title>
     <authors>Qt Project</authors>
     <projectUrl>https://doc.qt.io/qt-5/</projectUrl>
@@ -29,7 +29,6 @@ Qt 5 development defaults package.
     <dependencies>
       <dependency id="7zip" version="18.5.0.20180730" />
       <dependency id="python" version="3.6" />
-      <dependency id="mingw" version="[8.1.0]" />
     </dependencies>
   </metadata>
 </package>
