@@ -19,7 +19,7 @@
 Qt 5 development defaults package.
 
 ## Quick start
-- After [installing Chocolatey](https://chocolatey.org/install), run `choco install -y qt5-default qtcreator` in PowerShell and then launch Qt Creator to try to create a new Qt Widgets Application.
+- After [installing Chocolatey](https://chocolatey.org/install), and msvc2019_64, run `choco install qt5-msvc2019_64 --version=5.15.2` in PowerShell and then launch Qt Creator to try to create a new Qt Widgets Application.
 
 ## Troubleshooting
 - Check that all the packages and their dependencies were installed, if one failed (e.g. due to network-related errors) try to reinstall it using --force or try a previous version...
